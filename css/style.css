@@ -1,0 +1,94 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h2,h3{
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+}
+
+#testimonial{
+    background: #2ecc71;
+    text-align: center;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-padding{
+    padding: 60px 0;
+}
+
+.img-thumb{
+    margin: 15px;
+    text-align: center;
+}
+
+.img-thumb img{
+    width: 100px !important;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+}
+
+h2 a{
+    color: #000;
+}
+
+h3 a{
+    color: #333;
+}
+
+.testimonial-item{
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+p{
+    color: #222;
+}
+
+.star-icons{
+    color: #2ecc71;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1199.98px){
+    .container{
+        max-width: 100%;
+        padding: 0 60px;
+    }
+}
+
+
+.owl-theme .owl-nav.disabled + .owl-dots{
+    margin-top: 20px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: white;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    background: #2ecc71;
+    border: 2px solid white;    
+}
+
+
